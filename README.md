@@ -2,7 +2,7 @@
 - 👀 I’m interested in learning web and mobile development.
 - 🌱 I’m currently learning web development using PHP and SQL language.
 - 💞️ I’m looking to collaborate on open source projects and nonprofit organizations.
-- 📫 you can write me at hola@fabianponce.com.mx
+- 📫 You can write me at hi@fabianponce.com.mx
 
 <!---
 rfponce/rfponce is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
