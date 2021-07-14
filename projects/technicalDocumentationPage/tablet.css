@@ -1,0 +1,14 @@
+.wrapper
+{
+    flex-direction: row;
+}
+
+.navbar
+{
+    width: 35vw;
+}
+
+#main-doc
+{
+    width:60vw;
+}

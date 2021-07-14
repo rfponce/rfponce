@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>OS in development</title>
+</head>
+<body id="body-container">
+    <header class="sections-container">
+        <h1 id="title">Operating System Used for Web Development</h1>
+        <p id="description">The objective of this survey is to investigate the operating system used by developers to make projects.</p>
+    </header>
+
+    <main class="sections-container">
+        <form id="survey-form">
+            <section class="form-section">
+                <div class="form-section__container">
+                    <label id="name-label" for="name">Name</label>
+                    <input type="text" name="name" id="name" class="form-section__input" placeholder="Enter your name" required />
+                </div>
+            
+                <div class="form-section__container">
+                    <label id="email-label" for="email">Email</label>
+                    <input type="email" name="email" id="email" class="form-section__input" placeholder="Enter your e-mail" required />
+                </div>
+
+                <div class="form-section__container">
+                    <label id="number-label" for="number">Age (optional)</label>
+                    <input type="number" name="age" id="number" class="form-section__input form-section__input--number" min="8" max="120" placeholder="Age" />
+                </div>
+            </section>
+
+            <section class="form-section">
+                <fieldset class="field-container">
+                    <legend>Sex</legend>
+                    <label for="male">
+                        <input type="radio" name="sex" id="male" value="male" />Male
+                    </label>
+                    <label for="female">
+                        <input type="radio" name="sex" id="female" value="female" />Female
+                    </label>
+                    <label for="other">
+                        <input type="radio" name="sex" id="other-sex" value="other" />Other
+                    </label>
+                </fieldset>
+                
+                <div class="form-section">
+                    <div class="form-section__container">
+                        <label id="dropdown-label" for="dropdown">Do you own more than one computer?</label>
+                        <select name="os" id="dropdown" class="form-section__input" required>
+                            <option value="" disabled selected>Select an option</option>
+                            <option value="windows">yes</option>
+                            <option value="linux">no</option>
+                        </select>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="form-section">
+                <fieldset class="field-container">
+                    <legend>Select the operating systems you use</legend>
+                    <label for="windows">
+                        <input type="checkbox" name="os" id="windows" value="windows" />Windows
+                    </label>
+                    <label for="linux">
+                        <input type="checkbox" name="os" id="linux" value="linux" />Linux
+                    </label>
+                    <label for="macos">
+                        <input type="checkbox" name="os" id="macos" value="macos" />MacOS
+                    </label>
+                    <label for="other">
+                        <input type="checkbox" name="os" id="other" value="other" />Other
+                    </label>
+                </fieldset>
+            </section>
+
+            <section class="form-section">
+                <div class="form-section__container">
+                    <p>Would you like to leave a comment? (optional)</p>
+                    <textarea name="comments" id="comments" cols="30" rows="10" placeholder="You can leave a comment here"></textarea>
+                </div>
+            </section>
+            
+            <div id="button-container">
+                <button type="submit" id="submit" value="Submit">Submit Information</button>
+            </div>
+        </form>
+    </main>
+
+    <footer>
+        <p>Designed by Fabi&aacute;n Ponce</p>
+    </footer>
+</body>
+</html>
