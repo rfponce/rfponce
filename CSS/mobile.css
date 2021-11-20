@@ -65,13 +65,15 @@ body
     color: var(--color2);
     font-family: var(--font);
     font-size: 1.6rem;
+    transition: background-color 0.25s;
 }
 
 .header__a
 {
     text-decoration: none;
     padding: 10px 35px;
-    transition: background-color 0.25s;
+    display: inline-block;
+    color: white;;
 }
 
 .header__a:hover
