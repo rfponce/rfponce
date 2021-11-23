@@ -1,8 +1,8 @@
 - 👋 Hi, I’m Fabián Ponce and I currently live in México.
 - 👀 I’m interested in learning web and mobile development.
-- 🌱 I’m currently learning web development using PHP and SQL language.
+- 🌱 I’m currently learning web development using HTML, CSS and Javascript.
 - 💞️ I’m looking to collaborate on open source projects and nonprofit organizations.
-- 📫 You can write me at hi@fabianponce.com.mx
+- 📫 You can write me at https://www.linkedin.com/in/rfps/
 
 <!---
 rfponce/rfponce is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
