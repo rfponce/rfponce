@@ -1,0 +1,30 @@
+.hero
+{
+    background-image: url(../img/web-design-layout-bw-optimized-1280px.jpg);
+}
+
+.section
+{
+    font-size: 6.2rem;
+    flex-direction: row;
+}
+
+.section__header 
+{
+    margin: 0;
+}
+
+.section__header--inverted-colors 
+{
+    margin-left: 5vh;
+}
+
+.section__span
+{
+    font-size: 6.0rem;
+}
+
+.card
+{
+    margin: 1rem 3rem;
+}
