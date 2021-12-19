@@ -49,8 +49,12 @@ body
     font-family: var(--font);
     font-size: var(--nav-size);
     color: var(--color2);
-    margin: auto 1rem;
     flex-grow: 1;
+}
+
+.logo
+{
+    margin: 10px;
 }
 
 .header__ul
