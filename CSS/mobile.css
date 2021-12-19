@@ -204,6 +204,8 @@ body
 
 .footer
 {
+    display: flex;
+    padding: 10px;
     background-color: var(--color1);
     border: 0.5rem solid var(--color2);
     font-family: var(--font);
