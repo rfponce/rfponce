@@ -109,6 +109,10 @@ body
     background-color: var(--color1);
 }
 
+.second-time-visit__greeting {
+    color: var(--color3);
+}
+
 .hero
 {
     background-image: url(../img/web-design-layout-bw-optimized-320px.jpg);
